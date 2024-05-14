@@ -229,14 +229,12 @@ width: 50%;
      margin-left: 0px;
  }
  .jumbotron{
-     box-shadow: 2px 2px 2px 2px var(--red);
-     background: url(../images/banner.jpg);
+     background: url(https://i.pinimg.com/736x/ba/5b/81/ba5b8105e6160e3b0a4ee26962ec1a19.jpg);
      background-size: cover; 
     padding-top: 100px;
-    margin-bottom: 0px;
-    position: relative;
-    top: 0;
-    left: 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 2PX 2PX 55PX 8PX #333333;
  }
  .btn-2{
      background: var(--red);
@@ -673,7 +671,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 @media (min-width:1300px){
     .imges-1{
-        right: -104px;
+        right: -33%;
     }
     .btn-2{
         width: 30%;
@@ -684,6 +682,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     .work-img{
         animation: nik 5s linear infinite;
     transition: all 5s linear;
+    }
+    .wraping_text{
+        width: 100%;
     }
 
 }
