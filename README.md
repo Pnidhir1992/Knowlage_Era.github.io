@@ -1,4 +1,4 @@
 live privew
 
 
-https://github.com/Pnidhir1992/Knowlage_Era.github.io 
+https://pnidhir1992.github.io/Knowlage_Era.github.io/index.html
